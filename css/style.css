@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato';
+    font-size: 16px;
+    color: #333;
+    background-color: white;
+}
+
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)) , url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    float: left;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 55px;
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li{
+    margin-left: 30px;
+}
+
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-nav li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.hero-box{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+h1{
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    word-spacing: 6px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.btn{
+    border: solid orange 1px;
+    margin-right: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: orange;
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: white;
+    background-color: orange;
+}
+
+section{
+    padding: 40px 0px;
+}
+
+h2{
+    font-size: 1.6rem;
+    text-transform:uppercase;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2::after{
+    display: block;
+    content: "";
+    width: 100px;
+    height: 6px;
+    background-color: orange;
+    margin: 10px auto;
+    border-radius: 3px;
+
+}
+
+.features-text{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 30px;
+}
+.box{
+    text-align: center;
+}
+.box i{
+    color: orange;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.box h3{
+    margin-bottom: 10px;
+}
+.box p{
+    line-height: 150%;
+}
+
+.meal{
+    padding: 0px;
+    background-color: #000;
+    overflow: hidden;
+}
+.meal img{
+    width:100%;
+    display:block;
+    opacity: .6;
+    transform: scale(1.1);
+    transition: 2s;
+}
+.meal img:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+.work-left{
+    text-align: right;
+    padding-right: 3%;
+
+}
+.work-left img{
+    width: 40%;
+}
+
+.work-right{
+    padding-top: 80px;
+    text-align: left;
+    padding-left: 3%;
+}
+
+.step{
+    display: flex;
+    margin-bottom:30px;
+}
+
+.step div{
+       margin-right: 25px;
+       width: 55px;
+       height: 55px;
+       border: 2px solid orange;
+       border-radius: 50%;
+       text-align: center;
+       padding: 12px;
+       font-size: 20px;
+       font-weight: bold;
+}
+
+.step p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.step-btn{
+   margin-left: 15px;
+}
+.step-btn img{
+    height: 50px;
+}
+
+.city img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.city-info{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.city-info i{
+    color: orange;
+    margin-right: 20px;
+}
+
+.testmonials{
+    background-image: linear-gradient(rgba(0,0,0,.7) , rgba(0,0,0,.7)),url(../images/back-customers.jpg);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.testmonials i{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.testmonials p{
+line-height: 150%;
+margin-bottom: 20px;
+}
+
+.testmonials img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/*eating*/
+
+.eat{
+    background-color: rgba(146, 146, 146, 0.397);
+}
+
+.eat .one h3{
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.eat .one span{
+    color: orange;
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+    margin-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.eat .one p{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.eat hr{
+    color: rgb(3, 3, 3);
+    margin-top: 15px;
+    opacity: .2;
+}
+
+.sss{
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 55vh;
+}
+
+
+
+.inf{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.inf i{
+    color: orange;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.three{
+    border: solid orange 1px;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: orange;
+    background-color: white;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.three:hover{
+    background-color: orange;
+    color:white;
+}
+
+/*form*/
+label{
+    font-size: 18px;
+    color: orange;
+}
+input[type=text] , input[type=email] , select , textarea{
+
+    width: 100%;
+    padding: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+input[type=chekbox]{
+    margin-left: 30%;
+    margin-bottom: 12px;
+}
+button{
+    border: 1px solid orange;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: white;
+    color: orange;
+}
+
+/* footer */
+
+footer{
+    padding: 30px 0px;
+    background-color: #333;
+}
+
+footer p{
+    padding: 40px 0px;
+    color: #ccc;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-nav{
+    float: left;
+    list-style: none;
+    display: flex;
+}
+.footer-nav li{
+    margin-left: 15px;
+}
+.footer-nav li a{
+    color: #888;
+    text-decoration: none;
+}
+.footer-nav li a:hover{
+    color: #ccc;
+    text-decoration: underline;
+}
+
+.social-nav{
+    float: right;
+    list-style: none;
+    display: flex;
+}
+
+.social-nav li{
+    margin-left: 15px;
+}
+.social-nav li a{
+    color: #888;
+    text-decoration: none;
+}
+.social-nav li a:hover{
+    color: #ccc;
+    text-decoration: underline;
+}
